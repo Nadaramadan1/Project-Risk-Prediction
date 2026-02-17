@@ -1,0 +1,31 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.gitignore
+.mypy_cache
+.pytest_cache
+.hypotheses
+# Data files - generally we don't want to bake large datasets into the image
+# But we DO need the model files in models/
+data/
+# Jupyter notebooks
+notebooks/
+# MLflow runs
+mlruns/

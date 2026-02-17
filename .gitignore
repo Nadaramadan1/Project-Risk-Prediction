@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environ ments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Large files / Data
+data/
+mlruns/
+
+# We include models/stacking_classifier_pipeline.pkl because it is needed for CI/CD
+# and it is < 100MB (98MB).
+# If it grows larger, use DVC.
